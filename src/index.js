@@ -4,6 +4,7 @@ import App from './App';
 import Li from './content';
 import Count from './count';
 import Todo from './todo';
+import Timer from './timer';
 import './index.css';
 
 ReactDOM.render(
@@ -27,4 +28,8 @@ ReactDOM.render(
 ReactDOM.render(
   <Todo />,
   document.getElementById('todo')
+);
+ReactDOM.render(
+  <Timer />,
+  document.getElementById('timer')
 );
